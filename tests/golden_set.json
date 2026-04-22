@@ -1,0 +1,179 @@
+{
+  "description": "Golden Q&A test set for TaskFlow FAQ RAG Agent",
+  "company": "TaskFlow \u2014 SaaS Project Management Tool",
+  "in_scope": [
+    {
+      "id": 1,
+      "question": "How do I reset my password?",
+      "expected_answer_keywords": [
+        "Forgot Password",
+        "login page",
+        "email",
+        "30 minutes"
+      ],
+      "category": "Account & Billing"
+    },
+    {
+      "id": 2,
+      "question": "What payment options are available?",
+      "expected_answer_keywords": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Stripe"
+      ],
+      "category": "Account & Billing"
+    },
+    {
+      "id": 3,
+      "question": "How can I cancel my plan?",
+      "expected_answer_keywords": [
+        "Settings",
+        "Billing",
+        "Cancel Plan",
+        "billing period"
+      ],
+      "category": "Account & Billing"
+    },
+    {
+      "id": 4,
+      "question": "How many projects am I allowed on the free plan?",
+      "expected_answer_keywords": [
+        "3 projects",
+        "Free plan",
+        "Pro plan",
+        "unlimited"
+      ],
+      "category": "Projects & Tasks"
+    },
+    {
+      "id": 5,
+      "question": "How do I add someone to my project?",
+      "expected_answer_keywords": [
+        "Invite Member",
+        "email",
+        "Viewer",
+        "Editor",
+        "Admin"
+      ],
+      "category": "Projects & Tasks"
+    },
+    {
+      "id": 6,
+      "question": "Can I set a reminder for a task deadline?",
+      "expected_answer_keywords": [
+        "Due Date",
+        "reminders",
+        "bell icon",
+        "1 day",
+        "3 days"
+      ],
+      "category": "Projects & Tasks"
+    },
+    {
+      "id": 7,
+      "question": "What is a subtask in TaskFlow?",
+      "expected_answer_keywords": [
+        "nested",
+        "parent Task",
+        "50 subtasks",
+        "assigned"
+      ],
+      "category": "Projects & Tasks"
+    },
+    {
+      "id": 8,
+      "question": "Does TaskFlow work with Slack?",
+      "expected_answer_keywords": [
+        "Slack integration",
+        "Settings",
+        "Integrations",
+        "/taskflow"
+      ],
+      "category": "Integrations"
+    },
+    {
+      "id": 9,
+      "question": "Can I bring my data over from Jira?",
+      "expected_answer_keywords": [
+        "import",
+        "Jira",
+        "CSV",
+        "Pro and Enterprise"
+      ],
+      "category": "Integrations"
+    },
+    {
+      "id": 10,
+      "question": "How do I download my project data?",
+      "expected_answer_keywords": [
+        "Export",
+        "CSV",
+        "PDF",
+        "REST API"
+      ],
+      "category": "Integrations"
+    },
+    {
+      "id": 11,
+      "question": "How is my data protected?",
+      "expected_answer_keywords": [
+        "AES-256",
+        "TLS",
+        "SOC 2",
+        "GDPR",
+        "AWS"
+      ],
+      "category": "Security"
+    },
+    {
+      "id": 12,
+      "question": "How do I turn on two factor authentication?",
+      "expected_answer_keywords": [
+        "Settings",
+        "Security",
+        "2FA",
+        "Google Authenticator",
+        "Authy"
+      ],
+      "category": "Security"
+    },
+    {
+      "id": 13,
+      "question": "I want to switch from monthly to annual billing, how?",
+      "expected_answer_keywords": [
+        "Settings",
+        "Billing",
+        "Change Plan",
+        "Annual"
+      ],
+      "category": "Account & Billing"
+    }
+  ],
+  "out_of_scope": [
+    {
+      "id": 14,
+      "question": "Can TaskFlow send physical mail notifications?",
+      "expected_behavior": "escalate",
+      "reason": "Not mentioned in FAQ \u2014 agent should escalate"
+    },
+    {
+      "id": 15,
+      "question": "What is the stock price of TaskFlow?",
+      "expected_behavior": "escalate",
+      "reason": "Completely unrelated to product support"
+    },
+    {
+      "id": 16,
+      "question": "Do you offer a student discount?",
+      "expected_behavior": "escalate",
+      "reason": "Not covered in FAQ \u2014 agent should escalate to human"
+    },
+    {
+      "id": 17,
+      "question": "Can I use TaskFlow offline on a plane?",
+      "expected_behavior": "escalate",
+      "reason": "Offline mode not mentioned in FAQ"
+    }
+  ]
+}
